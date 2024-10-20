@@ -84,7 +84,8 @@
     grid-template-rows: 1fr 1fr;
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.208);
   }
 
   .header>.labelDiv>label>img{
@@ -94,15 +95,80 @@
     width:1.2rem;
   }
   .header>.name-img-Div>.catAvatar{
-    width:3rem;
+    width:2.3rem;
     border-radius: 13em;
   }
   .header>.header3rdDiv>.catAvatar{
-    width:4rem;
+    width:3.3rem;
     border-radius: 13em;
   }
   .header>div{
     display: flex;
+  }
+
+  .labelDiv{
+    padding-left:2rem;
+    justify-content: start;
+    align-self: center;
+    gap: 1.1rem;
+    align-items: center;
+  }
+
+  input[type=search]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+	border: none;
+	border-radius: 20px;
+    width:70%;
+    height:22px;
+	background-color: #e5e7eb;
+  }
+  input[type=search]:focus{
+    outline: none;
+    border:none;
+  }
+
+  .name-img-Div{
+    align-self: center;
+    justify-content: center;
+    gap:1.1rem;
+    align-items: center;
+  }
+  .name-img-Div>p{
+    font-size: 1.2rem;
+    font-weight: 550;
+  }
+
+  .header3rdDiv{
+    align-self: center;
+    justify-content: start;
+    gap: 1rem;
+    padding-left:2.2rem; 
+  }
+
+  .header3rdDiv > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+
+  .buttonDiv{
+    justify-content: space-between;
+    justify-self:center;
+    align-self: center;
+    gap:1.5rem;
+  }
+
+  button{
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 15px;
+    background-color: #38bdf8;
+    color: #ffffff;
+    font-weight: 520;
   }
 
   .announcements{
