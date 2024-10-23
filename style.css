@@ -43,6 +43,17 @@
     isolation: isolate;
   }
 
+  a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
   .container{
     display: grid;
     grid-template-columns: 0.7fr 2.8fr 1fr;
